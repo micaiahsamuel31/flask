@@ -3,12 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <title>flask app</title>
+  <link rel="stylesheet" src="styles/main.css">
 </head>
 <body>
   <div> 
-    <p>Name:{{a}}</p>
-    <p>Roll no:{{b}}</p>
-    <p>Email:{{c}}</p>
+    <h1> Good Morning, {{a}}!</h1>
   </div>
+  <div> 
+    <button class="search">
+      <img class="searchicon" src=images/search-icon.png> 
+    </button>
+    <input class="searchbar" placeholder="Search a task.....">
+  </div>
+  <div>
+    <img class="todo" src="images/to_do-list.png">
+    <img class="pending" src="images/pending.png">
+    <img class="done" src="images/done.png">
 </body>
 </html>
